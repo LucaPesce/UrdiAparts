@@ -1,0 +1,43 @@
+header {
+  position: fixed;
+  width: 100%;
+}
+header .navbar {
+  background-color: #121212 !important;
+  padding: 1.5rem;
+}
+header .navbar .container-fluid {
+  flex-direction: row-reverse;
+}
+header .navbar .container-fluid .logo-header-deployed {
+  display: none;
+  height: 2.5rem;
+}
+@media (max-width: 991px) {
+  header .navbar .container-fluid .logo-header-deployed {
+    display: block;
+  }
+}
+header .navbar .container-fluid .navbar-collapse {
+  justify-content: center;
+}
+header .navbar .container-fluid .navbar-collapse .navbar-nav li {
+  margin-right: 1rem;
+}
+header .navbar .container-fluid .navbar-collapse .navbar-nav .nav-link {
+  color: rgb(196, 196, 196);
+}
+header .navbar .container-fluid .navbar-collapse .navbar-nav .active {
+  color: rgb(255, 255, 255) !important;
+}
+header .navbar .container-fluid .navbar-collapse .navbar-nav .logo-header-undeployed {
+  height: 2.5rem;
+  margin-right: 1rem;
+}
+@media (max-width: 991px) {
+  header .navbar .container-fluid .navbar-collapse .navbar-nav .logo-header-undeployed {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

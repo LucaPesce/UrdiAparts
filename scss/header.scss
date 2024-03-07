@@ -1,0 +1,49 @@
+header{
+    position: fixed;
+    width: 100%;
+    .navbar {
+        background-color: #121212 !important;
+        padding: 1.5rem;
+
+
+        .container-fluid{
+            flex-direction: row-reverse;
+        
+            .logo-header-deployed{
+                display: none;
+                height: 2.5rem;
+
+                @include celular {
+                    display: block;
+                }
+            }
+            .navbar-collapse {
+                justify-content: center;
+                .navbar-nav {
+                    li {
+                        margin-right: 1rem;
+                    }
+                
+                    .nav-link{
+                        color: rgb(196, 196, 196);
+                    }
+                    .active {
+                        color: rgb(255, 255, 255) !important;
+                    }
+
+                    .logo-header-undeployed {
+                        height: 2.5rem;
+                        margin-right: 1rem;
+
+                        @include celular {
+                            display: none;
+                        }
+                    }
+
+
+
+                }
+            }
+        }   
+    }
+}
