@@ -1,13 +1,22 @@
 header{
-    position: fixed;
     width: 100%;
+    position: fixed;
+    margin-bottom: 3rem;
+    z-index: 4;
+    top: 0;
     .navbar {
         background-color: #121212 !important;
         padding: 1.5rem;
+        width: 100%;
+
 
 
         .container-fluid{
             flex-direction: row-reverse;
+
+            .navbar-toggler{
+                --bs-navbar-toggler-focus-width: 0rem !important;
+            }
         
             .logo-header-deployed{
                 display: none;

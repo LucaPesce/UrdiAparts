@@ -1,13 +1,20 @@
 header {
-  position: fixed;
   width: 100%;
+  position: fixed;
+  margin-bottom: 3rem;
+  z-index: 4;
+  top: 0;
 }
 header .navbar {
   background-color: #121212 !important;
   padding: 1.5rem;
+  width: 100%;
 }
 header .navbar .container-fluid {
   flex-direction: row-reverse;
+}
+header .navbar .container-fluid .navbar-toggler {
+  --bs-navbar-toggler-focus-width: 0rem !important;
 }
 header .navbar .container-fluid .logo-header-deployed {
   display: none;
@@ -38,6 +45,103 @@ header .navbar .container-fluid .navbar-collapse .navbar-nav .logo-header-undepl
   header .navbar .container-fluid .navbar-collapse .navbar-nav .logo-header-undeployed {
     display: none;
   }
+}
+
+.whatsapp-button {
+  position: fixed;
+  display: flex;
+  z-index: 10;
+  left: 95%;
+  top: 90%;
+}
+.whatsapp-button .whats-1 {
+  height: 4rem;
+  position: absolute;
+  transition: 0.5s;
+}
+.whatsapp-button .whats-1:hover {
+  opacity: 0;
+}
+.whatsapp-button .whats-2 {
+  height: 4rem;
+}
+
+.carousel-inicio {
+  margin-top: 1rem;
+  z-index: 1;
+}
+
+main {
+  background-color: #121212;
+  display: flex;
+  justify-content: space-between;
+}
+main .bienvenido-container {
+  color: white;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .bienvenido-container .texto-bienvenido {
+  width: 40%;
+}
+main .bienvenido-container .texto-bienvenido .pre-tit {
+  font-size: 1.5rem;
+  margin: 0;
+}
+main .bienvenido-container .texto-bienvenido h1 {
+  font-size: 5rem;
+  margin: 0;
+}
+main .bienvenido-container .texto-bienvenido .post-tit {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+main .bienvenido-container .texto-bienvenido a {
+  background-color: white;
+  border: solid white 0.8rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  color: black;
+}
+main .bienvenido-container .imagen-container-entrada {
+  width: 50%;
+  overflow: hidden;
+  max-height: 50rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer {
+  background-color: grey;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .info-footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .info-footer-container div {
+  margin-bottom: 1rem;
+}
+footer .info-footer-container div .icon-footer {
+  height: 1rem;
+  margin-right: 0.5rem;
+}
+footer .info-footer-container div a {
+  text-decoration: none;
+  color: white;
+}
+footer .logo-footer {
+  height: 3rem;
+}
+footer iframe {
+  height: 10rem;
+  border-radius: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
