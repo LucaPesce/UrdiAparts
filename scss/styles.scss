@@ -1,9 +1,11 @@
 @import './base/_mixins.scss';
+@import './base/extends';
 @import './header.scss';
 @import './wsp-button.scss';
-@import './carousel.scss';
-@import './main.scss';
+@import './carousel-index.scss';
+@import './main-index.scss';
 @import './footer.scss';
+@import './cards-resenas-index.scss';
 
 
 

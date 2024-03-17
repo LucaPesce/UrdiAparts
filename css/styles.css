@@ -1,3 +1,9 @@
+.resenas-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 header {
   width: 100%;
   position: fixed;
@@ -78,13 +84,13 @@ main {
 }
 main .bienvenido-container {
   color: white;
-  padding: 1rem;
+  padding: 2rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 main .bienvenido-container .texto-bienvenido {
-  width: 40%;
+  width: 50%;
 }
 main .bienvenido-container .texto-bienvenido .pre-tit {
   font-size: 1.5rem;
@@ -101,20 +107,20 @@ main .bienvenido-container .texto-bienvenido .post-tit {
 main .bienvenido-container .texto-bienvenido a {
   background-color: white;
   border: solid white 0.8rem;
-  border-radius: 2rem;
+  border-radius: 1rem;
   text-decoration: none;
   color: black;
 }
 main .bienvenido-container .imagen-container-entrada {
-  width: 50%;
+  width: 40%;
   overflow: hidden;
-  max-height: 50rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
+main .bienvenido-container .imagen-container-entrada img {
+  height: 40rem;
+}
+
 footer {
-  background-color: grey;
+  background-color: rgb(128, 128, 128);
   padding: 1rem;
   display: flex;
   justify-content: space-between;
@@ -142,6 +148,35 @@ footer .logo-footer {
 footer iframe {
   height: 10rem;
   border-radius: 1rem;
+}
+
+.resenas-container {
+  display: flex;
+  background: linear-gradient(169deg, rgb(49, 49, 49) 0%, rgb(18, 18, 18) 72%);
+  padding: 3rem;
+}
+.resenas-container .cards-container .hor {
+  display: flex;
+}
+.resenas-container .cards-container .hor .card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  border: 0.1rem solid rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  color: white;
+  height: 18rem;
+  width: 30%;
+  margin: 1rem;
+}
+.resenas-container .cards-container .hor .card .pp-nombre-card {
+  display: flex;
+  color: white;
+}
+.resenas-container .cards-container .hor .card .pp-nombre-card .pp-resena {
+  height: 1.75rem;
+  margin-right: 0.5rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

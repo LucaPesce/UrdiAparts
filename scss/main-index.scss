@@ -5,13 +5,13 @@ main{
 
     .bienvenido-container{
         color: white;
-        padding: 1rem;
+        padding: 2rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
 
         .texto-bienvenido{
-            width: 40%;
+            width: 50%;
             .pre-tit{
                 font-size: 1.5rem;
                 margin: 0;
@@ -30,22 +30,17 @@ main{
             a {
                 background-color: white;
                 border: solid white 0.8rem;
-                border-radius: 2rem;
+                border-radius: 1rem;
                 text-decoration: none;
                 color: black;
             }
         }
 
         .imagen-container-entrada{
-            width: 50%;
+            width: 40%;
             overflow: hidden;
-            max-height: 50rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             img {
-                
-                
+                height: 40rem;
             }
         }
         

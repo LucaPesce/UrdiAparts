@@ -1,0 +1,37 @@
+.resenas-container{
+    display: flex;
+    background: linear-gradient(169deg, rgb(49, 49, 49) 0%, rgba(18,18,18,1) 72%);
+    @extend %centrar;
+    padding: 3rem;
+
+    .cards-container{
+
+        .hor{
+            display: flex;
+            .card{
+                background:linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+                backdrop-filter: blur(10px);
+                border: .1rem solid rgba(255, 255, 255, 0.3);
+                border-radius: 1rem;
+                padding: 1rem;
+                justify-content: center;
+                color: white;
+                height: 18rem;
+                width: 30%;
+                margin: 1rem;
+    
+    
+    
+                .pp-nombre-card{
+                    display: flex;
+                    color: white;
+                    .pp-resena{
+                        height: 1.75rem;
+                        margin-right: .5rem;
+                    }
+                }
+            }
+        }
+        
+    }
+}
